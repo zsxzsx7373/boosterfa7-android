@@ -1,8 +1,12 @@
-# BoosterFA7 — Signed Release Build
+# BoosterFA7
 
-Это Android-проект с поддержкой подписанной release-сборки (`.apk`) для Google Play / RuStore.
+📲 Android-приложение для расчёта окупаемости криптокотла Booster FA7.
 
-## Особенности:
-- Подпись через `boosterfa7-release.jks`
-- Gradle 8.3, AGP 8.3.0
-- Codemagic CI
+## Возможности
+- Подпись через Gradle keystore
+- CI-сборка через Codemagic
+- Стартовая активность с UI
+
+## Сборка
+- `gradlew assembleRelease`
+- Требует Java 11+, Android SDK 33+
