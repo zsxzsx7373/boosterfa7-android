@@ -1,21 +1,8 @@
-# BoosterFA7 Калькулятор для Android
+# BoosterFA7 — Signed Release Build
 
-Приложение для расчёта окупаемости майнинга и отопления с использованием ASIC-оборудования и криптокотла Booster FA7.
+Это Android-проект с поддержкой подписанной release-сборки (`.apk`) для Google Play / RuStore.
 
-## Возможности:
-- Ввод параметров ASIC (хешрейт, потребление, цена и т.д.)
-- Учёт цены электричества
-- Получение курса BTC и хешрейта сети из интернета
-- Расчёт добычи, расходов, прибыли и окупаемости
-- Сборка под Android через Gradle (`./gradlew assembleDebug`)
-- Поддержка сборки на Codemagic
-
-## Структура:
-- `MainActivity.java` — логика приложения
-- `activity_main.xml` — интерфейс (адаптирован под мобильный экран)
-- `gradlew` и `build.gradle` — для сборки APK
-
-## Сайт:
-[https://valiant.ru](https://valiant.ru)
-
-© 2025 Valiant Technologies. Все права защищены.
+## Особенности:
+- Подпись через `boosterfa7-release.jks`
+- Gradle 8.3, AGP 8.3.0
+- Codemagic CI
